@@ -13,7 +13,7 @@ public class Main {
 
         try {
             XWPFDocument document = new XWPFDocument();
-            FileOutputStream out = new FileOutputStream(new File("c::/poidemo.docx"));
+            FileOutputStream out = new FileOutputStream(new File("c:/poidemo.docx"));
 
             XWPFParagraph paragraph =  document.createParagraph();
             XWPFRun run = paragraph.createRun();
